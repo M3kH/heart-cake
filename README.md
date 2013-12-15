@@ -23,8 +23,8 @@ know the ingredients of him, in this way you can have more powerfull approach to
 - Rendr - https://github.com/airbnb/rendr A small bidirectional-logic server and front-end library BackBone based.
 - Knex - http://knexjs.org/ This is the interface with the DB
 - BookShelf - http://bookshelfjs.org/ This is the interface with the DB
--- Interesting post about the usage of BookShelf - https://github.com/tgriesser/bookshelf/issues/69
--- BookShelf an ORM for Node.JS - http://thinkingonthinking.com/Bookshelf-an-ORM-for-Node/
+  - Interesting post about the usage of BookShelf - https://github.com/tgriesser/bookshelf/issues/69
+  - BookShelf an ORM for Node.JS - http://thinkingonthinking.com/Bookshelf-an-ORM-for-Node/
 
 #Run this project
 - Install Postgress / MySQL/ SQLite3
