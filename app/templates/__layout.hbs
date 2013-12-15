@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" data-framework="heart-cake">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Backbone.js • TodoMVC</title>
+    	<link href="/base.css" media="screen" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+	
+		<section id="todoapp">
+			<header id="header">
+				<h1>todos</h1>
+				<input id="new-todo" placeholder="What needs to be done?" autofocus>
+			</header>
+			<section id="main" class="container">
+				{{{body}}}
+			</section>
+			<footer id="footer"></footer>
+		</section>
+		
+		<footer id="info">
+			<p>Double-click to edit a todo</p>
+			<p>Written by <a href="https://github.com/m3kh">Mauro Mandracchia</a></p>
+			<p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+		</footer>
+
+    <script src="/base.js"></script>
+    <script src="/mergedAssets.js"></script>
+    <script>
+    (function() {
+      var App = window.App = new (require('app/app'))({{json appData}});
+      App.bootstrapData({{json bootstrappedData}});
+      App.start();
+    })();
+    </script>
+	</body>
+</html>

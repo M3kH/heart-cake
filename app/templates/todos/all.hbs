@@ -1,0 +1,37 @@
+<!-- <h1>Hello! </h1>
+
+<p class="lead">You are viewing the Todos/all template.</p>
+<p>You can find this template at '<strong>/Users/mm/work/heart-cake/app/templates/todos/all.hbs</strong>'</p>
+-->
+
+
+<input id="toggle-all" type="checkbox">
+<label for="toggle-all">Mark all as complete</label>
+<ul id="todo-list">
+{{#each models}}
+  <li class="{{#if completed}}completed{{/if}}" >
+	<div class="view">
+		<input class="toggle" type="checkbox" {{#if completed}}checked="checked"{{/if}} >
+		<label>{{title}}</label>
+		<button class="destroy"></button>
+	</div>
+	<input class="edit" value="{{title}}" >
+  </li>
+{{/each}}
+</ul>
+
+<!-- <span id="todo-count"><strong><%= remaining %></strong> <%= remaining === 1 ? 'item' : 'items' %> left</span>
+<ul id="filters">
+	<li>
+		<a class="selected" href="#/">All</a>
+	</li>
+	<li>
+		<a href="#/active">Active</a>
+	</li>
+	<li>
+		<a href="#/completed">Completed</a>
+	</li>
+</ul>
+<% if (completed) { %>
+<button id="clear-completed">Clear completed (<%= completed %>)</button>
+<% } %> -->
