@@ -27,8 +27,9 @@ know the ingredients of him, in this way you can have more powerfull approach to
 -- BookShelf an ORM for Node.JS - http://thinkingonthinking.com/Bookshelf-an-ORM-for-Node/
 
 #Run this project
-- Install Postgress
+- Install Postgress / MySQL/ SQLite3
 - Add your connection properties in serve/models/base.js
-- npm install
+- npm install pg / npm install mysql / npm install sqlite
 - grunt server
 - GET http://localhost:3030/api/install/
+- Visit http://localhost:3030/
