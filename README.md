@@ -7,10 +7,10 @@ A full Node.JS Isomorphic Framework with ORM integration.
 ## Welcome to Heart Cake
 
 Heart-Cake is a full JavaScript MVC Framework made with the ingredients:
-	- A base of Node.js,
-	- An heart of Back-bone,
-	- The taste of Rendr,
-	- The simplicity of Knex / Bookshelf.
+- A base of Node.js,
+- An heart of Back-bone,
+- The taste of Rendr,
+- The simplicity of Knex / Bookshelf.
 
 The goal is made a base full IsoPhormic application, with the DataLayer abstracted and stored in a DB( Postgres, MySQL, SQLite3 ).
 With a final result the semplicity of describe an application and make a prototype in really few steps.
