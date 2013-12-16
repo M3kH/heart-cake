@@ -3,6 +3,8 @@ Heart Cake
 
 A full Node.JS Isomorphic Framework with ORM integration.
 
+**\*\* IMPORTANT THIS PROJECT IS JUST AN IDEA AND STILL IS NOT FULL WORKING \*\***
+
 
 ## Welcome to Heart Cake
 
@@ -21,6 +23,8 @@ know the ingredients of him, in this way you can have more powerfull approach to
 
 ## Dependency Links and Relateds Articles
 - Rendr - https://github.com/airbnb/rendr A small bidirectional-logic server and front-end library BackBone based.
+  - Introduction to Rendr - http://nerds.airbnb.com/weve-launched-our-first-nodejs-app-to-product/
+  - Isomorphic Javascript: the future web apps - http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/
 - Knex - http://knexjs.org/ This is the interface with the DB
 - BookShelf - http://bookshelfjs.org/ This is the interface with the DB
   - Interesting post about the usage of BookShelf - https://github.com/tgriesser/bookshelf/issues/69

@@ -1,5 +1,6 @@
 var BaseApp = require('rendr/shared/app')
-  , handlebarsHelpers = require('./lib/handlebarsHelpers');
+  , handlebarsHelpers = require('./lib/handlebarsHelpers')
+  , ENTER_KEY = 13;
 
 /**
  * Extend the `BaseApp` class, adding any custom methods or overrides.

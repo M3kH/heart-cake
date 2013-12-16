@@ -14,6 +14,7 @@ module.exports = {
     var spec = {
       collection: {collection: 'Todos', params: params}
     };
+    
     this.app.fetch(spec, function(err, result) {
       callback(err, result);
     });
